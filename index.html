@@ -19,18 +19,40 @@
 
 <body>
 
-    <div class="container">
-	<div class="row">
-		<div class="col-sm-6 col-sm-offset-3 bg-info">
-			<h2>Bookmarker</h2>
-			<hr/>
-		</div>
-	</div>
+    <div class="container main">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-4 bg-info">
+                <h2>Bookmarker</h2>
+                <hr/>
+                <div class="form-area">
+                    <form id="book">
+                        <div class="form-group">
+                            <label for="Name">Name</label>
+                            <input type="text" class="form-control" id="sname">
+                        </div>
+                        <div class="form-group">
+                            <label for="Name">Url</label>
+                            <input type="text" class="form-control" id="surl">
+                        </div>
+                        <input type="submit" class="btn btn-danger">
+                    </form>
+                </div>
+                <div class="logarea bg-warning">
+                    <div class="item">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 bg-primary">
+
+            </div>
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script src="main.js"></script>
+    <script src="main.js"></script>
     <script>
 
 
